@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+ 
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlaces"  href="index.html">Tienda</a>
+        <a class="navegacion__enlaces" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main>
+        <h1>React JS</h1>
+        <div class="contenedor2">
+            <img class="contenedor2__imagen" src="img/4.jpg" alt="Imagen del Producto">
+            <div class="contenedor2__seleccion">
+                <p>Morbi sit amet dui a leo placerat gravida ac vitae ex. Nunc blandit blandit massa eu ultrices. 
+                    Curabitur dapibus et ipsum a hendrerit. Maecenas quis pulvinar augue, vel feugiat orci. 
+                    Praesent eu condimentum nisl, quis viverra ante. Duis suscipit ac lacus vitae porta. </p>
+                <form class="formulario">
+                    <select class="formulario__seleccion">
+                        <option disabled selected>--Seleccionar Talla</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__seleccion" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__carrito" type="submit" value="Agregar Al Carrito">
+                </form><!--.formulario-->
+            </div><!--.contenedor__seleccion-->
+        </div><!--.contenedor-->
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Tienda Virtual-Todos los derechos Reservados-2021</p>
+    </footer>
+    
+</body>
+</html>
